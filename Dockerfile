@@ -1,4 +1,4 @@
-FROM docker:28-cli
+FROM docker:29-cli
 
 ENV EARTHLY_VERSION=v0.8.16
 
