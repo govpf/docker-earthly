@@ -1,5 +1,8 @@
 FROM docker:29-cli
 
+LABEL govpf.fromimage="docker:29-cli"
+LABEL govpf.category="build"
+
 ENV EARTHLY_VERSION=v0.8.16
 
 RUN apk add --no-cache git wget \
